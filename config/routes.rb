@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   root to: 'pages#home'
-
   get "/team" => "pages#team"
   get "/contacts" => "pages#join_us"
 
